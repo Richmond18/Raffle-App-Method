@@ -25,12 +25,11 @@ namespace ConsoleUI
             Console.WriteLine("Hello");
             string message = "";
             //GetUserInput(message);
-            PrintGuestsName();
             GetUserInfo();
             int raffleNumber;
             raffleNumber = GenerateRandomNumber(0, 0);
             //string randomNumber;
-            //PrintGuestsName();
+            Console.WriteLine(PrintGuestsName());
 
 
 
